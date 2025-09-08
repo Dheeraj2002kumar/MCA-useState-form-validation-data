@@ -10,7 +10,7 @@ function FormValidation() {
   // to heandle form data
   const handleSubmit = (event) => {
     event.preventDefault(); // Prevent page reload
-    alert(`Hello, ${name}!`); // Do something with the form data
+    alert(`Hello, Developer name ${name}!`); // Do something with the form data
   };
 
   return (
